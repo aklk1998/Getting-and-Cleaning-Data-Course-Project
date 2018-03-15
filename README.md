@@ -9,16 +9,15 @@
 ##    4.  Extracts the measurements on the mean and standard deviation for each measurement from the data set in step 3.
 ##    5.  Uses descriptive activity names to name the activities in the data set in step 4
 ##    6.  Creates a new data set with the average of each measurement column by activity and subject from data set in 5.
-##    7.  Output data sets in step 5 and step 6 to csv files.
-##    8.  Create a R script file (analysis.R) to perform steps 1 to 7 from above
+##    7.  Outputs data sets in step 6 to a txt file.
+##    8.  Creates a R script file (analysis.R) to perform steps 1 to 7 from above
 ##   
 ##  Descriptions of the files in this Repo:
 ##    1.  README.md: A brief description of the objectives of the exericse and the R script
 ##    2.  run_analysis.R: The R script file that performs steps 1 to 7 above
-##    3.  by_activity_subject_mean.csv: Data set which contains the average of ech measurement by activity and subject
-##    4.  combined_train_test_data.csv: Data set which contains the merged Train and Test data sets
-##    5.  Getting and Cleaning Data Course Project Code Book (column names).doc: The code book contains the descriptions of the columns
-##        in the 2 csv files.
+##    3.  by_activity_subject_mean.txt: Data set which contains the average of ech measurement by activity and subject
+##    4.  Getting and Cleaning Data Course Project Code Book (column names).doc: The code book contains the descriptions of the columns
+##        in the output txt file.
 ##
 ##  Summary of the script file analysis.R
 ##
@@ -27,9 +26,8 @@
 ##    
 ##    Working folder name: C:\Data Files\Coursea\Getting_and_Cleaning_Data
 ##
-##    Output File Names:
-##        1.  by_activity_subject_mean.csv (data set created from step 6)
-##        2.  combined_train_test_data.csv (data set created in step 5)
+##    Output File Name:
+##        1.  by_activity_subject_mean.txt (data set created from step 6)
 ##
 ##    Brief descriptions of the source files:
 ##
@@ -60,18 +58,16 @@
 ##        (5) Uses descriptive activity names to name the activities in the data set
 ##        (6) From the data set in step 5, creates a second, independent tidy data set with the average of
 ##            each variable for each activity and each subject.
-##        (7) Write the 2 output tables to 2 csv files without row names
-##            (7.1) combined_train_test_data to combined_train_test_data.csv (from step 5)
-##            (7.2) by_activity_subject_mean to by_activity_subject_mean.csv (from step 6)
+##        (7) Write the output table in step 6 to a txt file without row names
+##            (7.1) by_activity_subject_mean to by_activity_subject_mean.txt (from step 6)
 ##
 ##   Output Table Names:
 ##        (1) combined_train_test_data
 ##        (2) by_activity_subject_mean
 ##
-##   Output csv file names:
-##        (1) combined_train_test_data.csv
-##        (2) by_activity_subject_mean to by_activity_subject_mean.csv
+##   Output txt file name:
+##        (1) by_activity_subject_mean to by_activity_subject_mean.txt
 ##
-##   Name of the code book that describes the column names in the 2 csv files:
+##   Name of the code book that describes the column names in the txt file:
 ##        (1) Getting and Cleaning Data Course Project Code Book (column names).doc
 ##
