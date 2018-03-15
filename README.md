@@ -2,19 +2,18 @@
 
 ##
 ##  Objectives of the exercise are: 
-##   1.  Extracts data from Human Activity Recognition Using Smartphones Data Set
-##        (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-##        into R
-##   2.  Merges the Train and Test data files (including measurements, activity, subject)
-##   3.  Extracts the measurements on the mean and standard deviation for each measurement from the
-##        the data set in step 2.
+###    1.  Extracts data from Human Activity Recognition Using Smartphones Data Set
+##        (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) into R
+##    2.  Merges the Train and Test data files (including measurements, activity, subject)
+##    3.  Extracts the measurements on the mean and standard deviation for each measurement from the data set in step 2.
 ##    4. Uses descriptive activity names to name the activities in the data set in step 3
 ##    5.  Labels the columns in the data set in 4 with descriptive column names
-##    6.  Creates a new data set with the average of each measurement column by activity and subject
-##         from data set in 5.
+##    6.  Creates a new data set with the average of each measurement column by activity and subject from data set in 5.
 ##    7.  Output data sets in step 5 and step 6 to csv files.
 ##    8.  Create a R script file (analysis.R) to perform steps 1 to 7 from above
 ##   
+##  Descriptions of the files in this Repo:
+##    1.  README.md: A brief description of the objectives of the exericse and the R script
 ##    Name of R script file: analysis.R
 ##    Purpose of analysis.R: To perform steps 1 to 7 from above "Objectives of the exercise are"
 ##    
